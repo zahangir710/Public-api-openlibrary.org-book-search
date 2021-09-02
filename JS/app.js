@@ -37,7 +37,6 @@ const showData=(bookInfo, bookList)=>{
         headerMessage.innerHTML=`Number of relavent Documents found : ${bookInfo.num_found}`;
     }
     bookList.forEach(book => {
-        console.log(bookInfo,book); // remove this line later
            const div=document.createElement('div');
            div.classList.add('col');
            div.innerHTML=`
